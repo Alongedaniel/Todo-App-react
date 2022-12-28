@@ -1,0 +1,18 @@
+input{
+    width: 40%;
+    height: 30px;
+    padding: .3rem;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBtn{
+    align-self: flex-start;
+}
+
+.filter{
+    align-self: flex-start;
+}
