@@ -18,11 +18,13 @@ const App = () => {
   const pageContainer = {
     display: "flex",
     flexDirection: "column",
-    width: "100vw",
-    height: "100vh",
+    width: "100%",
+    height: "max-content",
+    minHeight: "100vh",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#171B34",
+    padding: "50px 0"
   };
 
   const btn = {
@@ -35,7 +37,8 @@ const App = () => {
   };
 
   const todoContainer = {
-    height: "70vh",
+    height: "max-content",
+    minHeight: "70vh",
     width: "40vw",
     display: "flex",
     flexDirection: "column",
